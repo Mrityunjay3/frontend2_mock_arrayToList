@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>
+      Write your code in the script tag and view the output in the console
+    </h1>
+    <script>
+      const arrayToList = function (arr) {
+        // Write your code here
+      };
+
+      console.log(arrayToList([10, 20, 30, 40]));
+      /* Output: {value: 10, rest: {value: 20, rest: {
+value:	30
+rest:	{value: 40, rest: null}
+}}} */
+      console.log(arrayToList([5, 4, 3, 2, 1]));
+      /* Output: {value: 5, rest: {value: 4, rest: {
+value:	3
+rest:	{
+value:	2
+rest:	{value: 1, rest: null}
+}
+}}} */
+    </script>
+  </body>
+</html>
